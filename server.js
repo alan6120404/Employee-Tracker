@@ -91,7 +91,7 @@ const promptUser = () => {
                             {
                             type:'text',
                             name:'id',
-                            message: 'What is the id of the role?'
+                            message: 'What is the department id of the role?'
                             }
 
                         ])
@@ -144,7 +144,7 @@ const promptUser = () => {
                             {
                             type:'text',
                             name:'employee',
-                            message: "Which employee's role would you want to update?"
+                            message: "Which employee ID's role would you want to update?"
                             },
                             {
                             type:'text',
